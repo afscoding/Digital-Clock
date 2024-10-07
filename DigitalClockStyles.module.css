@@ -1,0 +1,28 @@
+.container {
+  margin: 0;
+  background-image: url(/src/assets/backImgDigitalClock.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /*resize the window : backimg is fix*/
+
+  /*OPTIONAL*/
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.digitalClockContainer {
+  backdrop-filter: blur(5px);
+  /*width: 100vw;*/
+  padding: 10px 15px;
+}
+
+.clock {
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  font-family: monospace, Helvetica, sans-serif;
+  text-shadow: 3px 3px 3px hsl(0, 0%, 0%);
+  text-align: center;
+}
